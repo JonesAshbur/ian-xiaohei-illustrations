@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-label="对话式 agent 的复杂性，小黑在对白气泡下方操纵状态、记忆、工具、权限和兜底机制的怪诞手绘正文配图">
+  <rect width="1600" height="900" fill="#ffffff"/>
+
+  <style>
+    .line { fill: none; stroke: #151515; stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; }
+    .thin { fill: none; stroke: #151515; stroke-width: 3.2; stroke-linecap: round; stroke-linejoin: round; }
+    .dash { fill: none; stroke: #151515; stroke-width: 3.2; stroke-linecap: round; stroke-linejoin: round; stroke-dasharray: 10 12; }
+    .black { fill: #101010; stroke: #101010; stroke-width: 4; stroke-linejoin: round; }
+    .white { fill: #ffffff; }
+    .orange { fill: none; stroke: #f28c28; stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; }
+    .red { fill: none; stroke: #d93a25; stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; }
+    .blue { fill: none; stroke: #2f6fad; stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; }
+    .txt { font-family: "Noto Sans CJK SC", "Microsoft YaHei", "PingFang SC", sans-serif; font-size: 34px; fill: #151515; letter-spacing: 1px; }
+    .txt-small { font-family: "Noto Sans CJK SC", "Microsoft YaHei", "PingFang SC", sans-serif; font-size: 27px; fill: #151515; letter-spacing: 1px; }
+    .txt-red { font-family: "Noto Sans CJK SC", "Microsoft YaHei", "PingFang SC", sans-serif; font-size: 30px; fill: #d93a25; letter-spacing: 1px; }
+    .txt-orange { font-family: "Noto Sans CJK SC", "Microsoft YaHei", "PingFang SC", sans-serif; font-size: 30px; fill: #f28c28; letter-spacing: 1px; }
+    .txt-blue { font-family: "Noto Sans CJK SC", "Microsoft YaHei", "PingFang SC", sans-serif; font-size: 30px; fill: #2f6fad; letter-spacing: 1px; }
+  </style>
+
+  <!-- visible conversation layer -->
+  <g transform="translate(250 100)">
+    <path class="line" d="M38 20 C176 2 476 5 612 24 C652 72 653 147 612 197 C486 222 171 220 42 199 C-5 152 -5 67 38 20Z"/>
+    <path class="thin" d="M96 72 C213 60 374 65 512 72"/>
+    <path class="thin" d="M101 122 C241 112 381 116 514 121"/>
+    <path class="thin" d="M505 197 C532 225 565 244 609 253"/>
+    <text class="txt" x="135" y="168">看起来只是一句对话</text>
+  </g>
+
+  <g transform="translate(920 135) rotate(2)">
+    <path class="thin" d="M15 15 C80 4 220 2 286 17 C310 51 312 98 286 131 C212 146 85 148 17 132 C-5 97 -6 49 15 15Z"/>
+    <text class="txt-small" x="55" y="86">给我做一下</text>
+  </g>
+
+  <!-- orange descent from chat into machine -->
+  <path class="orange" d="M790 315 C790 365 760 405 704 435"/>
+  <path class="orange" d="M705 435 L736 432 L716 405"/>
+  <text class="txt-orange" x="815" y="355">进入内部</text>
+
+  <!-- central underside machine, loose not formal -->
+  <g transform="translate(515 390)">
+    <path class="line" d="M40 70 C138 28 365 30 485 72 C528 150 521 298 479 374 C354 425 151 418 42 371 C-2 283 -1 154 40 70Z"/>
+    <path class="thin" d="M75 104 C181 78 358 80 452 105"/>
+    <path class="thin" d="M68 345 C174 383 360 385 457 348"/>
+
+    <!-- Xiaohei as core operator -->
+    <path class="black" d="M229 177 C210 122 233 86 285 87 C338 90 360 130 344 180 C373 199 381 237 364 275 C339 332 235 327 211 276 C194 238 201 202 229 177Z"/>
+    <circle class="white" cx="260" cy="166" r="8"/>
+    <circle class="white" cx="307" cy="168" r="8"/>
+    <path class="thin" d="M224 273 C205 313 195 348 176 388"/>
+    <path class="thin" d="M330 275 C351 311 362 346 386 383"/>
+    <path class="thin" d="M222 217 C174 199 139 170 103 130"/>
+    <path class="thin" d="M348 218 C390 198 421 167 453 127"/>
+
+    <!-- levers and knobs around Xiaohei -->
+    <path class="line" d="M107 130 C75 112 43 101 5 94"/>
+    <circle cx="-14" cy="90" r="14" fill="#fff" stroke="#151515" stroke-width="5"/>
+    <path class="line" d="M454 128 C492 106 525 82 555 48"/>
+    <circle cx="568" cy="34" r="15" fill="#fff" stroke="#151515" stroke-width="5"/>
+    <path class="line" d="M282 88 C284 50 292 22 311 -13"/>
+    <circle cx="319" cy="-29" r="15" fill="#fff" stroke="#151515" stroke-width="5"/>
+  </g>
+
+  <!-- tangled complexity wires -->
+  <path class="blue" d="M594 485 C460 414 344 414 243 487"/>
+  <path class="orange" d="M620 590 C455 620 352 704 268 792"/>
+  <path class="red" d="M1000 510 C1150 452 1280 470 1394 545"/>
+  <path class="blue" d="M972 645 C1112 690 1218 735 1337 814"/>
+  <path class="orange" d="M793 390 C824 310 887 260 985 238"/>
+  <path class="dash" d="M810 763 C825 699 875 662 942 647"/>
+  <path class="thin" d="M630 514 C710 452 814 475 892 535"/>
+  <path class="thin" d="M672 678 C755 630 846 621 940 676"/>
+
+  <!-- left modules, hand-drawn boxes -->
+  <g transform="translate(116 430) rotate(-7)">
+    <path class="thin" d="M4 4 C69 -4 162 -1 225 11 C238 50 235 113 221 151 C148 160 63 154 5 144 C-7 100 -5 45 4 4Z"/>
+    <text class="txt-small" x="58" y="62">上下文</text>
+    <path class="blue" d="M47 92 C91 82 144 89 182 86"/>
+  </g>
+
+  <g transform="translate(125 705) rotate(5)">
+    <path class="thin" d="M5 7 C74 -5 184 -3 252 10 C267 55 261 132 246 174 C158 189 65 179 7 166 C-6 118 -4 52 5 7Z"/>
+    <text class="txt-small" x="79" y="70">工具调用</text>
+    <path class="orange" d="M58 111 C103 125 170 122 211 107"/>
+  </g>
+
+  <!-- top-right memory node -->
+  <g transform="translate(990 205) rotate(-4)">
+    <path class="thin" d="M5 4 C76 -2 176 2 244 8 C259 50 255 115 241 152 C165 164 74 158 6 147 C-4 102 -5 45 5 4Z"/>
+    <text class="txt-small" x="82" y="62">记忆</text>
+    <path class="blue" d="M54 100 C93 85 154 91 197 101"/>
+  </g>
+
+  <!-- right modules -->
+  <g transform="translate(1312 470) rotate(6)">
+    <path class="thin" d="M5 8 C65 -1 158 4 220 12 C233 56 230 128 215 168 C142 177 63 174 8 160 C-4 111 -3 53 5 8Z"/>
+    <text class="txt-small" x="70" y="68">权限</text>
+    <path class="red" d="M48 111 C96 98 154 102 193 114"/>
+  </g>
+
+  <g transform="translate(1228 742) rotate(-5)">
+    <path class="thin" d="M5 7 C76 -3 177 0 246 11 C259 51 260 126 242 165 C164 178 75 174 8 160 C-4 113 -5 49 5 7Z"/>
+    <text class="txt-small" x="67" y="68">兜底</text>
+    <path class="blue" d="M56 110 C108 124 171 123 211 106"/>
+  </g>
+
+  <!-- bottom central state knot -->
+  <g transform="translate(678 744) rotate(1)">
+    <path class="line" d="M11 20 C89 -9 255 -2 323 24 C350 75 336 147 303 178 C220 201 96 196 28 174 C-8 126 -13 66 11 20Z"/>
+    <text class="txt-small" x="118" y="78">状态</text>
+    <path class="thin" d="M62 118 C104 92 157 148 204 119 C235 98 260 112 288 132"/>
+  </g>
+
+  <!-- short labels around tension, not too many -->
+  <text class="txt-red" x="1115" y="438">每一步都可能出错</text>
+  <path class="red" d="M1103 449 C1196 475 1302 469 1378 448"/>
+
+  <text class="txt-blue" x="380" y="374">多轮遗留</text>
+  <path class="blue" d="M370 384 C428 407 500 404 557 382"/>
+
+  <text class="txt-orange" x="525" y="822">对话只是入口</text>
+  <path class="orange" d="M515 832 C598 856 709 854 790 829"/>
+
+  <!-- subtle loose marks -->
+  <path class="thin" d="M1036 612 C1080 633 1137 631 1182 611"/>
+  <path class="thin" d="M395 640 C441 623 497 628 540 649"/>
+  <path class="thin" d="M1012 790 C1055 774 1104 780 1146 800"/>
+  <path class="thin" d="M320 250 C361 231 413 237 457 260"/>
+</svg>
