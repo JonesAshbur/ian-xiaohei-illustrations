@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-label="小黑把混乱输入压成清晰判断的怪诞手绘正文配图">
+  <rect width="1600" height="900" fill="#ffffff"/>
+
+  <style>
+    .line { fill: none; stroke: #151515; stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; }
+    .thin { fill: none; stroke: #151515; stroke-width: 3.2; stroke-linecap: round; stroke-linejoin: round; }
+    .black { fill: #101010; stroke: #101010; stroke-width: 4; stroke-linejoin: round; }
+    .white { fill: #ffffff; }
+    .orange { fill: none; stroke: #f28c28; stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; }
+    .red { fill: none; stroke: #d93a25; stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; }
+    .blue { fill: none; stroke: #2f6fad; stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; }
+    .txt { font-family: "Noto Sans CJK SC", "Microsoft YaHei", "PingFang SC", sans-serif; font-size: 34px; fill: #151515; letter-spacing: 1px; }
+    .txt-small { font-family: "Noto Sans CJK SC", "Microsoft YaHei", "PingFang SC", sans-serif; font-size: 27px; fill: #151515; letter-spacing: 1px; }
+    .txt-red { font-family: "Noto Sans CJK SC", "Microsoft YaHei", "PingFang SC", sans-serif; font-size: 31px; fill: #d93a25; letter-spacing: 1px; }
+    .txt-orange { font-family: "Noto Sans CJK SC", "Microsoft YaHei", "PingFang SC", sans-serif; font-size: 31px; fill: #f28c28; letter-spacing: 1px; }
+    .txt-blue { font-family: "Noto Sans CJK SC", "Microsoft YaHei", "PingFang SC", sans-serif; font-size: 30px; fill: #2f6fad; letter-spacing: 1px; }
+  </style>
+
+  <!-- sparse loose input notes on the left -->
+  <g transform="translate(170 185) rotate(-6)">
+    <path class="thin" d="M0 5 C65 -4 150 1 214 8 C224 55 223 115 210 163 C139 154 69 160 3 151 C-5 105 3 56 0 5Z"/>
+    <path class="thin" d="M33 45 C70 38 123 39 164 44"/>
+    <path class="thin" d="M31 83 C91 78 129 84 180 80"/>
+    <text class="txt-small" x="42" y="124">材料</text>
+  </g>
+  <g transform="translate(250 420) rotate(9)">
+    <path class="thin" d="M0 6 C52 -1 112 4 171 1 C179 44 178 98 170 138 C112 134 48 146 4 132 C-3 94 -2 44 0 6Z"/>
+    <path class="thin" d="M30 42 C71 40 106 43 139 39"/>
+    <path class="thin" d="M29 77 C75 72 116 81 145 76"/>
+    <text class="txt-small" x="47" y="113">噪声</text>
+  </g>
+  <g transform="translate(142 565) rotate(-12)">
+    <path class="thin" d="M0 2 C63 -2 132 8 199 2 C204 39 205 101 196 144 C126 138 63 149 6 137 C-2 96 -2 39 0 2Z"/>
+    <path class="thin" d="M29 41 C82 35 133 44 170 39"/>
+    <path class="thin" d="M30 80 C86 76 124 82 159 78"/>
+    <text class="txt-small" x="48" y="116">想法</text>
+  </g>
+
+  <!-- orange flow arrows -->
+  <path class="orange" d="M405 300 C493 312 560 345 635 405"/>
+  <path class="orange" d="M390 475 C488 470 565 478 647 455"/>
+  <path class="orange" d="M370 620 C497 604 578 546 660 492"/>
+  <path class="orange" d="M620 384 L648 407 L610 414"/>
+  <path class="orange" d="M626 460 L660 455 L634 434"/>
+  <path class="orange" d="M633 512 L662 490 L623 486"/>
+
+  <text class="txt-blue" x="205" y="150">混乱输入</text>
+  <path class="blue" d="M198 160 C248 175 313 166 366 184"/>
+
+  <!-- central absurd clarity press -->
+  <g transform="translate(660 260)">
+    <path class="line" d="M34 128 C92 108 276 103 347 128 C370 192 368 332 343 396 C249 422 109 417 36 392 C10 304 10 207 34 128Z"/>
+    <path class="thin" d="M53 150 C134 136 257 137 326 151"/>
+    <path class="thin" d="M55 372 C145 390 254 391 326 370"/>
+    <path class="line" d="M103 74 C154 62 247 61 296 78 C303 95 303 115 294 132 C231 117 161 118 105 132 C93 113 92 91 103 74Z"/>
+    <path class="line" d="M193 82 C194 36 196 5 206 -32"/>
+    <path class="line" d="M206 -32 C259 -32 302 -16 330 15"/>
+    <path class="line" d="M329 15 C320 42 301 65 277 80"/>
+
+    <!-- small wheels / bolts -->
+    <circle cx="74" cy="176" r="10" fill="#fff" stroke="#151515" stroke-width="4"/>
+    <circle cx="307" cy="176" r="10" fill="#fff" stroke="#151515" stroke-width="4"/>
+    <circle cx="77" cy="347" r="10" fill="#fff" stroke="#151515" stroke-width="4"/>
+    <circle cx="308" cy="347" r="10" fill="#fff" stroke="#151515" stroke-width="4"/>
+
+    <!-- Xiaohei inside, core operator -->
+    <path class="black" d="M155 210 C142 163 161 133 205 133 C250 134 269 165 258 211 C279 224 286 253 272 285 C252 331 164 328 143 285 C129 254 136 226 155 210Z"/>
+    <circle class="white" cx="184" cy="200" r="8"/>
+    <circle class="white" cx="224" cy="202" r="8"/>
+    <path class="thin" d="M155 292 C144 326 137 351 122 379"/>
+    <path class="thin" d="M239 296 C255 323 263 349 281 375"/>
+    <path class="thin" d="M147 243 C113 231 95 207 80 178"/>
+    <path class="thin" d="M255 235 C289 219 307 198 327 160"/>
+
+    <!-- lever Xiaohei pulls -->
+    <path class="line" d="M311 157 C347 119 380 79 407 34"/>
+    <circle cx="413" cy="25" r="16" fill="#fff" stroke="#151515" stroke-width="5"/>
+    <path class="red" d="M348 80 C372 94 395 96 427 86"/>
+  </g>
+
+  <text class="txt-orange" x="730" y="215">压一压</text>
+  <path class="orange" d="M716 225 C775 241 844 242 906 231"/>
+
+  <!-- output path and result sheet on right -->
+  <path class="orange" d="M1028 455 C1135 450 1208 421 1286 370"/>
+  <path class="orange" d="M1260 362 L1292 366 L1274 392"/>
+
+  <g transform="translate(1215 280) rotate(4)">
+    <path class="line" d="M3 5 C92 -5 207 -4 289 10 C302 78 297 198 286 270 C199 282 91 277 5 264 C-7 181 -6 77 3 5Z"/>
+    <path class="thin" d="M45 68 C102 58 178 64 240 65"/>
+    <path class="thin" d="M48 119 C111 116 179 118 235 112"/>
+    <path class="thin" d="M50 170 C96 164 143 170 191 166"/>
+    <text class="txt" x="70" y="226">判断</text>
+  </g>
+
+  <text class="txt-red" x="1228" y="615">清晰判断</text>
+  <path class="red" d="M1218 625 C1286 649 1377 645 1438 624"/>
+
+  <!-- tiny warning note, not title -->
+  <g transform="translate(1010 650) rotate(-5)">
+    <path class="red" d="M0 35 C51 13 108 15 158 37"/>
+    <text class="txt-red" x="5" y="85">不要全塞</text>
+  </g>
+
+  <!-- a few loose hand marks to avoid rigid vector feeling -->
+  <path class="thin" d="M535 690 C570 706 618 705 654 690"/>
+  <path class="thin" d="M905 715 C947 699 989 702 1027 724"/>
+  <path class="thin" d="M705 565 C756 586 828 584 875 565"/>
+</svg>
